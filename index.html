@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>從種子到杯中，減碳在手中</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">從種子到杯中，減碳在手中</a>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">首頁</a>
+      <a href="why-carbon.html">為什麼要減碳</a>
+      <a href="carbon-elements.html">碳排元素</a>
+      <a href="carbon-basics.html">基礎知識</a>
+      <a href="action-plan.html">實戰方案</a>
+      <a href="checklist.html">行動清單</a>
+      <a href="about.html">教材介紹</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <span class="badge">咖啡廳碳排認知與減碳行動教學平台</span>
+        <h1>從種子到杯中，<br>減碳在手中</h1>
+        <p>這是一個給咖啡廳管理層的互動學習平台，幫你快速看懂碳排熱點、經營選擇與未來可能面對的碳成本壓力。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="why-carbon.html">開始學習</a>
+          <a class="btn btn-secondary" href="#question-start">先看互動引導</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="scene">
+          <div class="wall"></div>
+          <div class="floor"></div>
+          <div class="sign">Green Bean Café</div>
+          <div class="obj counter"></div>
+          <div class="obj machine"></div>
+          <div class="obj fridge"></div>
+          <div class="obj cups"></div>
+          <div class="obj plant"></div>
+          <div class="obj light"></div>
+          <div class="obj light two"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="question-start">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>先來一個問題，開始今天的學習</h2>
+        <p>從經營風險切入，建立管理者的危機意識</p>
+      </div>
+      <div class="card reveal">
+        <h3>你知道將來咖啡廳也可能會被收碳費嗎？</h3>
+        <p>先用一個問題，快速檢查你現在的經營風險意識。</p>
+
+        <div class="choice-list">
+          <button class="choice-btn" onclick="homeQuestion('a')">
+            A. 只要現在還沒直接被收費，就不需要太早在意，等真的被規範再說
+          </button>
+
+          <button class="choice-btn" onclick="homeQuestion('b')">
+            B. 就算現在主要針對大型排放源，咖啡廳也應該提早建立碳成本概念，否則未來可能同時面對成本、品牌與營運壓力
+          </button>
+
+          <button class="choice-btn" onclick="homeQuestion('c')">
+            C. 碳費只是環保議題，和咖啡廳管理層真正要處理的採購、設備、包裝與營運決策沒有直接關係
+          </button>
+        </div>
+
+        <div id="homeFeedback" class="feedback"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>你會學到什麼？</h2>
+        <p>把複雜概念，拆成能直接判斷的內容</p>
+      </div>
+      <div class="grid-3">
+        <div class="card reveal">
+          <div class="icon-bubble">☕</div>
+          <h3>看見排放熱點</h3>
+          <p>快速辨識原料、配送、設備與包材的碳排來源。</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon-bubble">🌿</div>
+          <h3>理解碳成本</h3>
+          <p>用更直白的方式看懂排放量與模擬碳成本。</p>
+        </div>
+        <div class="card reveal">
+          <div class="icon-bubble">📋</div>
+          <h3>做出管理選擇</h3>
+          <p>透過模擬互動，找到更適合店面的減碳方案。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>學習地圖</h2>
+        <p>正式學習活動共 4 個，教材介紹不列入活動</p>
+      </div>
+
+      <div class="grid-2">
+        <a class="card module-link reveal" href="why-carbon.html">
+          <div>
+            <h3>單元 1｜為什麼要減碳</h3>
+            <p>先看懂風險在哪裡。</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="card module-link reveal" href="carbon-elements.html">
+          <div>
+            <h3>單元 2｜碳排元素</h3>
+            <p>找出店內外的排放熱點。</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="card module-link reveal" href="carbon-basics.html">
+          <div>
+            <h3>單元 3｜基礎知識</h3>
+            <p>用拖曳分類建立概念。</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="card module-link reveal" href="action-plan.html">
+          <div>
+            <h3>單元 4｜實戰方案</h3>
+            <p>一步一步做經營決策。</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="card module-link reveal" href="checklist.html">
+          <div>
+            <h3>單元 5｜行動清單</h3>
+            <p>用 500 元預算做取捨。</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="card module-link reveal" href="about.html">
+          <div>
+            <h3>教材介紹</h3>
+            <p>查看補充說明。</p>
+          </div>
+          <span>→</span>
+        </a>
+      </div>
+
+      <div class="hero-actions" style="justify-content:center; margin-top:28px;">
+        <a class="btn btn-primary" href="why-carbon.html">進入學習</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p><strong>從種子到杯中，減碳在手中</strong></p>
+    <p>給咖啡廳管理層的互動式碳排學習平台。</p>
+    <p>本網站有使用 ChatGPT 工具製作。</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
